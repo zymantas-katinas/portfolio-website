@@ -21,8 +21,6 @@ document.querySelector(".navbar").addEventListener("click", function(){
 });
 
 //-----------------
-// const target = document.querySelector('.test');
-// console.log(target.style.marginTop)
 
 window.addEventListener('scroll', function(e) {
 
@@ -33,7 +31,6 @@ for(let i=0; i<target.length; i++){
       target[i].style.marginTop =+ pos+"px";
 
     }
-          // target[index].style.transform = 'translate3d('+posX+'px, '+posY+'px, 0px)';
 
 });
 
