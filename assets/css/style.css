@@ -541,12 +541,12 @@ a:hover {
   display: block;
 }
 
-.invisible {
+.hidden {
   opacity: 1;
 }
 
 @media only screen and (max-width: 950px) {
-  .invisible {
+  .hidden {
     opacity: 0;
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
