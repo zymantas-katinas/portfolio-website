@@ -85,11 +85,16 @@
 }	
 
 
+//ABOUT  ===============================================
+.about { 
+	@extend %heading;
+	padding: 0 150px;
+	& p {
+		margin-top: 20px;
+	}
+}
 
 // PROJECTS ===============================================
-// .test {
-// 	margin-top: 50px;
-// }
 .projects {		
 	& .row {
 		margin: 7% 0;
@@ -153,13 +158,6 @@
 
 }
 
-
-//ABOUT  ===============================================
-.about { 
-	@extend %heading;
-	padding: 0 150px;
-	margin-bottom: 300px;
-}
 
 // FOOTER ===============================================
 

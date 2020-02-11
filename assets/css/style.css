@@ -227,6 +227,14 @@ a:hover {
   display: none;
 }
 
+.about {
+  padding: 0 150px;
+}
+
+.about p {
+  margin-top: 20px;
+}
+
 .projects .row {
   margin: 7% 0;
 }
@@ -296,11 +304,6 @@ a:hover {
 .projects .over-image {
   display: none;
   text-align: center;
-}
-
-.about {
-  padding: 0 150px;
-  margin-bottom: 300px;
 }
 
 .footer {
